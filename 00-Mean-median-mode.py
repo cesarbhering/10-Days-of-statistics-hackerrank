@@ -10,7 +10,7 @@ print(sum(SplitedInfoArray)/int(infoLen))
 if infoLen % 2 == 0:
     print((SplitedInfoArray[infoLen//2]+SplitedInfoArray[(infoLen//2)-1])/2)
 else: 
-    print((infoLen//2)+1)
+    print(SplitedInfoArray[infoLen//2])
 
 #Printa a moda
 DictNumerosRepetidos = {}
